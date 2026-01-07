@@ -19,6 +19,17 @@ Build a tool that reconstructs suspicious login activity into a clear, analyst-r
 Produces a concise incident narrative that can be used for alert escalation, reporting, or case documentation.
 
 ## 🚀 Future Improvements
-- Risk scoring for login anomalies
+- Risk scoring enhancements
 - MITRE ATT&CK technique mapping
 - Integration with SIEM exports (Splunk, Elastic)
+
+---
+
+## ▶️ How to Run
+
+### Requirements
+- Python 3.10 or higher
+
+### Run with sample logs (text output)
+```bash
+python login_story.py --logfile sample_logins.csv
