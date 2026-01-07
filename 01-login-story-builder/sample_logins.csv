@@ -1,0 +1,5 @@
+timestamp,user,source_ip,country,device,result
+2026-01-06 09:12,jdoe,192.168.1.10,UAE,Windows-Safari,success
+2026-01-06 09:18,jdoe,192.168.1.10,UAE,Windows-Safari,success
+2026-01-07 03:17,jdoe,45.83.193.22,Russia,Linux-Firefox,success
+2026-01-07 03:19,jdoe,45.83.193.22,Russia,Linux-Firefox,failure
