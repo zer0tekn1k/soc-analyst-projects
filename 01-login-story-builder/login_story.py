@@ -33,6 +33,8 @@ def build_incident_story(anomalies):
         print(f"Result     : {event['result']}")
 
 def main():
+    print("Suspicious Login Story Builder running locally.")
+
     logs = load_logs(LOG_FILE)
     baseline = build_baseline(logs[:2])  # first 2 are "normal"
     anomalies = detect_anomalies(logs[2:], baseline)
